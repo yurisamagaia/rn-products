@@ -20,7 +20,12 @@ type ProductCardProps = {
 export const ProductCard: FC<ProductCardProps> = ({ product, onPress }) => {
   return (
     <View style={styles.cardWrapper}>
-      <TouchableOpacity activeOpacity={0.9} style={styles.container} onPress={onPress}>
+      <TouchableOpacity
+        accessibilityRole="button"
+        activeOpacity={0.9}
+        style={styles.container}
+        onPress={onPress}
+      >
         <Image
           source={{ uri: product.thumbnail }}
           style={styles.thumbnail}

@@ -51,7 +51,7 @@ export const ProductListScreen: FC<ProductListScreenProps> = ({ navigation }) =>
       return (
         <ErrorState
           description="Não foi possível carregar os produtos. Tente novamente."
-          onActionPress={() => refetch()}
+          onActionPress={handleRefresh}
         />
       );
     }
