@@ -75,5 +75,5 @@ yarn install
 
  iOS – List | iOS – Details | Android – List | Android – Details |
 |---|---|---|---|
-| <img src="docs/Screenshot_iOS1.png" width="260" /> | <img src="docs/Screenshot_iOS2.png" width="260" /> | <img src="docs/Screenshot_Android1.png" width="260" /> | <img src="docs/Screenshot_Android2.png" width="260" /> |
+| <img src="docs/Screenshot_iOS_1.png" width="260" /> | <img src="docs/Screenshot_iOS_2.png" width="260" /> | <img src="docs/Screenshot_Android_1.png" width="260" /> | <img src="docs/Screenshot_Android_2.png" width="260" /> |
 
