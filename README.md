@@ -77,3 +77,17 @@ yarn install
 |---|---|---|---|
 | <img src="docs/Screenshot_iOS_1.png" width="260" /> | <img src="docs/Screenshot_iOS_2.png" width="260" /> | <img src="docs/Screenshot_Android_1.png" width="260" /> | <img src="docs/Screenshot_Android_2.png" width="260" /> |
 
+## UX/UI Improvements
+
+- **Search input**: in the product list screen to filter items by name, brand, or category.
+- **Horizontal image carousel**: in product details with smooth paging, full-width layout, and dynamic height calculation.
+- **Interactive bullets indicator**: for better visual feedback during image navigation.
+- **Reviews Modal**: opens when tapping the product rating, displaying reviewer name, comment, and score.
+- **Product tags chips**
+- **Availability badge**
+- **Specifications section**
+- **Collapsible “Warranty & Shipping” section**
+
+## Demo
+
+<video src="docs/demo.mp4" width="320" controls></video>
