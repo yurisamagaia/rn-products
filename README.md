@@ -1,4 +1,4 @@
-# Produtos App
+# Products List App
 
 React Native Expo application for listing and viewing product details of a fictional store.
 
@@ -54,7 +54,7 @@ yarn install
 - `yarn test --coverage` generates a coverage report.
 - Current coverage results:
   - Statements: 96.96%
-  - Branches: 81.25%
+  - Branches: 79.31%
   - Functions: 95.65%
   - Lines: 96.72%
 
