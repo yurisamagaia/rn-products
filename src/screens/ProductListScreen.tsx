@@ -15,6 +15,7 @@ import { ProductCard } from '../components/ProductCard';
 import { colors } from '../theme/colors';
 import { useProductsQuery, type Product } from '../services/products';
 import { RootStackParamList } from '../navigation/types';
+import { SafeAreaView } from 'react-native-safe-area-context';
 
 type ProductListScreenProps = NativeStackScreenProps<
   RootStackParamList,
@@ -74,7 +75,7 @@ export const ProductListScreen: FC<ProductListScreenProps> = ({ navigation }) =>
     );
   };
 
-  return <View style={styles.container}>{renderContent()}</View>;
+  return <SafeAreaView style={styles.container}edges={['bottom']}>{renderContent()}</SafeAreaView>;
 };
 
 const styles = StyleSheet.create({

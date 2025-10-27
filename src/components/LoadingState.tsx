@@ -3,28 +3,14 @@ import {
   ActivityIndicator,
   StyleSheet,
   View,
-  type StyleProp,
-  type ViewStyle,
 } from 'react-native';
 
 import { colors } from '../theme/colors';
 
-type LoadingStateProps = {
-  color?: string;
-  size?: 'small' | 'large';
-  containerStyle?: StyleProp<ViewStyle>;
-  testID?: string;
-};
-
-export const LoadingState: FC<LoadingStateProps> = ({
-  color = colors.price,
-  size = 'large',
-  containerStyle,
-  testID = 'loading-indicator',
-}) => {
+export const LoadingState: FC = () => {
   return (
-    <View style={[styles.container, containerStyle]}>
-      <ActivityIndicator size={size} color={color} testID={testID} />
+    <View style={styles.container}>
+      <ActivityIndicator color={colors.primaryText} testID={'loading-indicator'} />
     </View>
   );
 };
