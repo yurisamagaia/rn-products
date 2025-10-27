@@ -74,10 +74,10 @@ yarn install
 ## Screenshots
 
 ### iOS
-![Product List (Android)](docs/Screenshot_iOS1.png)
-![Product Details (Android)](docs/Screenshot_iOS2.png)
+![Product List (iOS)](docs/Screenshot_iOS1.png)
+![Product Details (iOS)](docs/Screenshot_iOS2.png)
 
 ### Android
-![Product List (iOS)](docs/Screenshot_Android1.png)
-![Product Details (iOS)](docs/Screenshot_Android2.png)
+![Product List (Android)](docs/Screenshot_Android1.png)
+![Product Details (Android)](docs/Screenshot_Android2.png)
 
