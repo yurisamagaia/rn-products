@@ -88,6 +88,5 @@ yarn install
 - **Specifications section**
 - **Collapsible “Warranty & Shipping” section**
 
-## Demo
-
-<video src="docs/demo.MP4" width="320" controls></video>
+|---|---|---|---|---|---|
+| <img src="docs/improvement_1.png" width="260" /> | <img src="docs/improvement_2.png" width="260" /> | <img src="docs/improvement_3.png" width="260" /> | <img src="docs/improvement_4.png" width="260" /> | <img src="docs/improvement_5.png" width="260" /> | <img src="docs/improvement_6.png" width="260" /> |
