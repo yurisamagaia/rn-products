@@ -65,6 +65,7 @@ yarn install
   - `GET /products/:id`
 
 ## Technical Decisions
+- **Expo**: chosen to simplify setup and run the project easily on both iOS and Android (and Web), ensuring faster development and testing without additional native configuration.
 - **React Navigation**: provides a stack navigator with native headers, gesture support, and a mature API.
 - **React Query + Axios**: eliminates boilerplate manual state management (loading/error), offering caching, invalidation, and background synchronization.
 - **StyleSheet**: styles are preprocessed and cached natively, avoiding runtime cost and extra dependencies.
