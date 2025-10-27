@@ -1,4 +1,4 @@
-import { useCallback } from 'react';
+import { memo, useCallback } from 'react';
 import type { FC } from 'react';
 import {
   FlatList,
@@ -21,6 +21,8 @@ type ProductListScreenProps = NativeStackScreenProps<
   RootStackParamList,
   'ProductList'
 >;
+
+const Separator = memo(() => <View style={styles.itemSeparator} />);
 
 export const ProductListScreen: FC<ProductListScreenProps> = ({ navigation }) => {
   const { data, isLoading, isError, refetch, isRefetching } = useProductsQuery();
@@ -62,7 +64,7 @@ export const ProductListScreen: FC<ProductListScreenProps> = ({ navigation }) =>
         data={data?.products ?? []}
         keyExtractor={keyExtractor}
         contentContainerStyle={styles.listContent}
-        ItemSeparatorComponent={() => <View style={styles.itemSeparator} />}
+        ItemSeparatorComponent={Separator}
         renderItem={renderProduct}
         refreshControl={
           <RefreshControl
@@ -75,7 +77,11 @@ export const ProductListScreen: FC<ProductListScreenProps> = ({ navigation }) =>
     );
   };
 
-  return <SafeAreaView style={styles.container}edges={['bottom']}>{renderContent()}</SafeAreaView>;
+  return (
+    <SafeAreaView style={styles.container} edges={['bottom']}>
+      {renderContent()}
+    </SafeAreaView>
+  );
 };
 
 const styles = StyleSheet.create({
