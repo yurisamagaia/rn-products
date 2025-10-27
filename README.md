@@ -70,3 +70,14 @@ yarn install
 - **StyleSheet**: styles are preprocessed and cached natively, avoiding runtime cost and extra dependencies.
 - **Memoization & FlatList**: reduces unnecessary renders, improves scrolling performance, and keeps the UI responsive even with large lists.
 - **TypeScript & clean code**: ensures strong typing, autocomplete, and consistent code standards.
+
+## Screenshots
+
+### iOS
+![Product List (Android)](docs/Screenshot_iOS1.png)
+![Product Details (Android)](docs/Screenshot_iOS2.png)
+
+### Android
+![Product List (iOS)](docs/Screenshot_Android1.png)
+![Product Details (iOS)](docs/Screenshot_Android2.png)
+
