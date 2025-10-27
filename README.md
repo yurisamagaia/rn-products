@@ -90,4 +90,4 @@ yarn install
 
 ## Demo
 
-<video src="docs/demo.mp4" width="320" controls></video>
+<video src="docs/demo.MP4" width="320" controls></video>
