@@ -12,9 +12,9 @@ type ErrorStateProps = {
 };
 
 export const ErrorState: FC<ErrorStateProps> = ({
-  title = 'Algo deu errado',
-  description = 'Não foi possível completar a ação. Tente novamente.',
-  actionLabel = 'Tentar novamente',
+  title = 'Something went wrong',
+  description = 'Unable to complete action. Please try again.',
+  actionLabel = 'Try again',
   onActionPress,
   footer,
 }) => {
